@@ -1,0 +1,103 @@
+/*//////color change for menus start//////////*/
+body{
+    position:relative;
+}
+#crops-home{
+    color:black;
+    background:rgb(255, 255, 255);
+}
+#crops-home:hover{
+    background-color: #29ca8e;
+    color: #ffffff;
+}
+#home-home{
+    background-color: #29ca8e;
+    color: #ffffff;
+}
+ .weather-report{
+     border:3px solid green;
+     width:85%;
+     max-width:1110px;
+     margin:-60px auto 0 auto;
+     text-align: center;
+     overflow: auto;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ .weather-report h2{
+     margin-top:-60px;
+ }
+ /* ///////////////////reminder////////////////// */
+ .reminder{
+     position:absolute;
+ }
+   /* move the top issues to the top */
+  [id="courses"]{
+      margin-top:-60px;
+  }
+  .mobile-format-weather-image{
+      display:none;
+  }
+
+  /*Student of the week section*/
+  .spotlight-quote {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  max-width: 1000px;
+  margin: auto;
+}
+
+.student-spotlight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.student-spotlight img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #0077cc;
+}
+
+.spotlight-info h3 {
+  margin: 0;
+  color: #0077cc;
+}
+
+.quote-of-day {
+  flex: 1;
+}
+
+.quote-of-day h3 {
+  color: #ff6600;
+}
+
+.quote-of-day blockquote {
+  font-style: italic;
+  background: #fff3e0;
+  padding: 1rem;
+  border-left: 5px solid #ff6600;
+  margin: 0;
+}
+
+/* MEDIA QUERRIES */
+  @media screen and (max-width: 800px) {
+    .weather-report h2{
+        margin-top:-20px;
+    }
+    .mobile-format-weather-image{
+        display:block;
+    }
+    .weather-image{
+        display:none;
+    }
+  }

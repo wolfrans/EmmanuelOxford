@@ -1,0 +1,13 @@
+/*//////color change for menus start//////////*/
+#crops-home{
+    color:black;
+    background:rgb(255, 255, 255);
+}
+#crops-home:hover{
+    background-color: #29ca8e;
+    color: #ffffff;
+}
+#animal-animal{
+    background-color: #29ca8e;
+    color: #ffffff;
+}

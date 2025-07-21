@@ -1,0 +1,91 @@
+/*//////color change for menus start//////////*/
+#crops-home{
+    color:black;
+    background:rgb(255, 255, 255);
+}
+#crops-home:hover{
+    background-color: #29ca8e;
+    color: #ffffff;
+}
+#articles-articles{
+    background-color: #29ca8e;
+    color: #ffffff;
+}
+[src="images/37th-farmers-day-img.jpg"]{
+    width:75%;
+    margin-top:-50px;
+}
+
+.right-img-1, .right-img-2, .right-img-2{
+    position:relative;
+}
+.right-img-1::after, .right-img-2::after, .right-img-3::after{
+    content: "";
+    position:absolute;
+    background-color: rgba(8, 8, 8, 0.205);
+    width: 100%;
+    height: 100%;
+    left:0;
+  
+}
+.right-img-1::after{
+    content:"contact 0247672242 for your bunnies" ;
+    color:white;
+    line-height:100px;
+    text-align: center;
+    font-size: 20px;
+}
+.right-img-2::after{
+    content:"contact 0247672242 for your beehives" ;
+    color:white;
+    line-height:100px;
+    text-align: center;
+    font-size: 20px;
+}
+.right-img-3::before{
+    position:absolute;
+    left:64%;
+    content: "chainsaw for cashew prunning";
+    color:rgb(241, 76, 76);
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    /* margin-left:50px; */
+}
+.right-img-3::after{
+    left:64%;
+    content: "contact: 0247672242";
+    color:white;
+    font-size: 20px;
+    line-height: 100px;
+}
+
+
+[href="#woli-address"]{
+    background-color: #29ca8e;
+    color: #ffffff;
+    padding:0 5px;
+}
+[href="#woli-address"]:hover{
+    background-color:#fff ;
+    color: #29ca8e;
+}
+/* just to darken the topic sentences */
+.topic-sentence{
+    color:#000;
+}
+@media screen and (max-width: 800px) {
+    .right-img-3::after,.right-img-3::before {
+        left:0;    
+        text-align: center;
+        line-height: 80px;
+  }
+    .right-img-3::after {
+        left:0;    
+        text-align: center;
+        line-height: 170px;
+  }
+  [src="images/37th-farmers-day-img.jpg"]{
+    margin-top:40px;
+}
+}
